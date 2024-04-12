@@ -1,4 +1,4 @@
-import { lilRed } from "../Pages/littleRedCarrot";
+import { lilRed } from "../objects/littleRedCarrot";
 const page = new lilRed();
 const fs = require('fs');
 
