@@ -8,7 +8,7 @@ test("do a search", async () => {
     await google.search('fry bread')
     let test = await google.getResults()
     expect(Text).toContain('fry bread')
-    await getSelection.writeFile(`${__dirname}/google.png`,
+    await fs.writeFile(`${__dirname}/google.png`,
     await google.driver.takeScreenshot(), "base64",
     async (e) => {
         if (e) console.error(e)
